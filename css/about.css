@@ -1,0 +1,190 @@
+
+.about-us{
+	background-color: #fff;
+	padding:10px;
+}
+
+.about-us .list{
+	float:left;
+	width:27%;
+	border-top:1px solid #ACC879;
+}
+
+.about-us .list ul{
+	margin-left: -40px;
+	margin-top: 1px;
+}
+
+.list .extend{
+	display: none ;
+	margin-left: 3px !important;
+}
+
+.list .extend li a{
+	background-color: #B5DBA4 !important;
+	color: #333 !important;
+	font-size: 16px !important;
+	font-family: 'Oxygen', sans-serif !important;
+	font-weight: normal !important;
+}
+
+.list .extend li a:hover,
+.list .extend li a.active{
+	background-color: #CDE7C2 !important;
+}
+
+.list .list-item{
+	margin: 0 0 0 0 !important;
+}
+
+.list .list-item a{
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 18px;
+	display: block;
+	padding:10px 10px;
+	font-weight: bold;
+	background-color: #7ABE5C;
+	-webkit-transition: background 250ms ease-out;
+    -moz-transition: background 250ms ease-out;
+    -o-transition: background 250ms ease-out;
+}
+
+.list .list-item a:hover,
+.list .list-item .active{
+	background-color: #ACC879;
+	color: #333;
+}
+
+
+
+.about-us .people{
+	float:right;
+	width:67%;
+	min-height: 600px;
+	padding:10px;
+	background-color: #f2f2f2;
+}
+
+
+.people section{
+	display: none;
+	clear: both;
+}
+
+.people section article{
+	display: block;
+}
+
+.people h2{
+	display: block;
+	margin-bottom: 0px;
+	text-align: center;
+	color:#42A2E1;
+	font-family: 'Roboto', sans-serif;
+	text-shadow:1px 1px 1px #333;
+	text-transform: capitalize;
+}
+
+.people p{
+	font-size: 18px;
+	line-height: 30px;
+	margin:  0 0 0 0 ;
+	margin-top: 5px;
+}
+
+.people strong{
+	font-weight: bold;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 23px;
+}
+
+.people section fieldset{
+	display: block;
+	width:290px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	float:left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.people section fieldset{
+}
+
+.people section fieldset.full{
+	display: block;
+	width: 100%;
+}
+
+.people section fieldset.full .inner{
+	margin: 2px auto;
+	width:400px;
+}
+
+.people section fieldset img{
+	display: inline-block;
+	float:left;
+	width:124px;
+}
+
+.people section fieldset .holder{
+	display: inline-block;
+	float:left;
+	width: 50%;
+	margin-top: 10px;
+	margin-left: 8px;
+}
+
+.people section fieldset .holder a{
+	display: block;
+	color: #09c;
+	text-decoration: none;
+	font-size: 19px !important;
+	text-transform: capitalize;
+}
+
+.people section fieldset .holder a:hover{
+	color: #005a84 !important;
+}
+
+.people section fieldset .holder span{
+	display: block;
+	font-size: 19px;
+	text-transform: capitalize;
+}
+
+.person{
+	display: block;
+}
+
+.person .info{
+	display: inline-block;
+	width:70%;
+	float:left;
+}
+
+.person .info h2{
+	display: inline-block;
+	clear: right;
+}
+
+.person .info h3{
+	display: block;
+	font-weight: normal;
+	font-family: tahoma;
+	text-transform: capitalize;
+	margin:0;
+	margin-bottom: 7px;
+}
+
+.person img{
+	float: left;
+	max-width:150px;
+	margin-top: 30px;
+}
+
+.lister li{
+	font-size: 19px;
+	list-style-type: disc;
+}

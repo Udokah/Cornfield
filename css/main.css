@@ -1,0 +1,523 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans|Roboto);
+@import url(http://fonts.googleapis.com/css?family=Arimo|Ubuntu|Oxygen);
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+   body{
+    background-color: #f6f6f6;
+    font-family: 'PT Sans Narrow',Calibri,'Myriad Pro',Tahoma,Arial;
+   }
+
+.wrapper{
+    margin:1px auto;
+    width: 959px !important;
+    margin-top: -16px;
+    border-top: none;
+    margin-bottom: 50px;
+}
+
+header{
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    width: inherit;
+}
+
+header.add-bg{
+    background: url(../img/bg.jpg) top center no-repeat;
+    height: 460px;
+}
+
+header.full-header{
+    background-color: #53a93f;
+    border-radius: 0 0 10px 10px ;
+    -moz-border-radius: 0 0 10px 10px
+    -webkit-border-radius: 0 0 10px 10px;
+    -o-border-radius: background 250ms ease-out;
+}
+
+.my-header{
+    margin: 0px auto;
+    width: 100%;
+}
+
+header .brand{
+    display: inline-block;
+    float:left; 
+    width:99px;
+    height: 62px;
+    background: url(../img/logo.png) center no-repeat #53a93f;
+    padding:7.5px;
+    margin-left:100px;
+    padding-left: 50px;
+    border-radius: 0 0 0 10px ;
+}
+
+.top-header .nav{
+    float:left;
+    display: inline;
+}
+
+.nav li{
+    display: inline;
+    margin:  0 0 0 0;
+}
+
+.nav li a{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    padding:27px 40px;
+    background-color: #53a93f;
+    text-transform: uppercase;
+    margin:  0 0 0 0;
+    margin-right: -4px;
+    font-weight: normal;
+    font-size: 17px;
+    font-family: 'Arimo', sans-serif;
+    -webkit-transition: background 250ms ease-out;
+    -moz-transition: background 250ms ease-out;
+    -o-transition: background 250ms ease-out;
+}
+
+.nav li:last-child a{
+    border-radius: 0 0 10px 0 ;
+}
+
+.nav li a:hover,
+.nav li a.active{
+    background-color: #98CD81;
+}
+
+header .company-mission{
+    width:60%;
+    margin: 30px auto;
+    padding:20px;
+    background:rgba(0,0,0, .5);
+}
+
+header .company-mission h2{
+    text-transform: capitalize;
+    color:#f6f6f6;
+}
+
+header .company-mission p{
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+.news-deck{
+    min-height: 280px;
+    background-color: #fff;
+    padding-top: 10px;
+}
+
+
+.news-deck .title{
+    float: left;
+    width:30%;
+    padding:10px 0px;
+    color: #333;
+    padding-left:20px;
+}
+
+.news-deck .title h2{
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+
+.news-deck .title span{
+    font-size: 17px;
+}
+
+.news-deck .topics{
+    float: right;
+    width:67%;
+    overflow: hidden;
+}
+
+.news-deck .topics .opaque{
+    width:70px;
+    height: 190px;
+    background:rgba(255,255,255, .7);
+    position: ;
+    float: right;
+    margin-top: -215px;
+}
+
+.mover{
+    padding:10px;
+}
+
+.mover .arrows{
+    display: inline-block;
+    width: 18px;
+    height: 30px;
+    background-image: url(../img/tr-sprite.png);
+}
+
+.mover .left{
+    background-position: -20px -227px;
+}
+
+
+.mover .right{
+    background-position: -20px -277px;
+    float: right;
+}
+
+.news-deck .topics .slider{
+    position: ;
+    width: 190%;
+}
+
+.topics .item{
+    width:260px;
+    float: left;
+    padding:10px;
+}
+
+.topics .item a{
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+    min-height: 50px;
+    font-family: arial;
+    color: #09c;
+}
+
+.topics .item a:hover{
+    color: #2980b9;
+}
+
+.topics .item span{
+    display: block;
+    font-size: 13px;
+    font-family: tahoma;
+    color:#666;
+    text-transform: capitalize !important;
+}
+
+.topics .item p{
+    font-size: 17px;
+    color: #555;
+    display:inline-block;
+    height: 
+}
+
+
+.affiliates{
+    background-color: #ecf0f1;
+    margin-top: -5px;
+    padding:5px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.affiliates h2{
+    display: block;
+    color: #111;
+    font-weight: normal;
+    text-shadow:1px 1px 1px #fff;
+}
+
+.affiliates ul{
+    display: inline;
+}
+
+.affiliates ul li{
+    display: inline;
+}
+
+.affiliates ul li a{
+    display: inline-block;
+    padding:10px 40px;
+}
+
+.affiliates ul li a img{
+    width: 100px;
+}
+
+
+footer{
+    display: block;
+    min-height: 200px;
+    background-color: #333;
+    padding:20px 10px;
+}
+
+
+footer .block{
+    float: left;
+}
+
+footer .block li a{
+    color:#999;
+    font-size: 17px;
+    display: inline-block;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+
+    -webkit-transition: color 250ms ease-out;
+    -moz-transition: color 250ms ease-out;
+    -o-transition: color 250ms ease-out;
+}
+
+footer .block li p{
+    text-align: left;
+    margin-top: 1px;
+    margin-bottom: 7px;
+    font-size: 17px !important;
+    display: inline-block;
+}
+
+footer .block li i{
+    margin-right: 4px;
+}
+
+
+footer .block li a:hover{
+    color: #fff;
+}
+
+footer .block li:first-child a{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+footer p{
+    color: #999;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.clear{
+    clear: both;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
